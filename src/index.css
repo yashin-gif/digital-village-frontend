@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", "Noto Sans Bengali", system-ui, sans-serif;
+
+  --color-brand-50: #f0faf4;
+  --color-brand-100: #d9f2e3;
+  --color-brand-200: #b3e5c8;
+  --color-brand-300: #82d1a4;
+  --color-brand-400: #4fb87f;
+  --color-brand-500: #2a9d62;
+  --color-brand-600: #1b8350;
+  --color-brand-700: #166941;
+  --color-brand-800: #125236;
+  --color-brand-900: #0e3d29;
+
+  --color-accent-500: #d97706;   /* হলুদ-কমলা: তথ্য, নোটিশ */
+  --color-danger-500: #dc2626;   /* লাল: জরুরি, ভুল */
+  --color-danger-600: #b91c1c;
+  --color-info-500: #0284c7;     /* নীল: তথ্যমূলক */
+
+  --radius-card: 1.25rem;        /* কার্ডের কোণ */
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px rgb(15 23 42 / 0.06);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-white text-slate-800 antialiased;
+  }
+
+  h1, h2, h3 {
+    @apply font-bold text-slate-900 tracking-tight;
+  }
+
+  h1 { @apply text-3xl sm:text-4xl leading-tight; }
+  h2 { @apply text-2xl sm:text-3xl leading-snug; }
+  h3 { @apply text-lg leading-snug; }
+
+  p {
+    @apply leading-7;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 py-2.5 font-semibold text-white shadow-sm transition hover:bg-brand-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500 disabled:opacity-50;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 font-semibold text-slate-800 transition hover:border-brand-600 hover:bg-brand-50;
+  }
+
+  .card {
+    @apply rounded-[var(--radius-card)] border border-slate-100 bg-white p-6 shadow-[var(--shadow-card)];
+  }
+
+  .badge {
+    @apply inline-block rounded-full bg-brand-50 px-3 py-1 text-sm font-semibold text-brand-700 ring-1 ring-brand-100;
+  }
+}

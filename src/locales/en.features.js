@@ -1,0 +1,120 @@
+const enFeatures = {
+  community: {
+    badge: 'Community',
+    title: 'Village Community',
+    text: 'Share news, ask questions and talk with fellow villagers. Be respectful and kind.',
+    newPost: 'Write a post',
+    postTitle: 'Title',
+    postContent: 'What would you like to share?',
+    publish: 'Publish',
+    publishing: 'Publishing…',
+    cancel: 'Cancel',
+    loginToPost: 'Login to join the discussion',
+    empty: 'No posts yet',
+    emptyText: 'Be the first to share something with the village.',
+    by: 'by',
+    showComments: 'Show comments',
+    hideComments: 'Hide comments',
+    noComments: 'No comments yet.',
+    commentPlaceholder: 'Write a comment…',
+    send: 'Send',
+    loginToComment: 'Login to comment',
+    delete: 'Delete',
+    deletePost: 'Delete post',
+    deleteComment: 'Delete comment',
+    confirmDelete: 'Are you sure you want to delete this?',
+    unknownAuthor: 'Member',
+  },
+  welfare: {
+    badge: 'Help & Welfare',
+    title: 'Ask for Help',
+    text: 'If you or your family need support, send a request here. Only the village welfare committee can see your request, and it is kept private.',
+    loginToApply: 'Login to send a request',
+    requestType: 'Type of help',
+    subject: 'Subject',
+    description: 'Describe your situation',
+    submit: 'Send request',
+    submitting: 'Sending…',
+    success: 'Your request has been sent to the welfare committee. Thank you.',
+    types: {
+      financial: 'Financial support',
+      medical: 'Medical help',
+      food: 'Food support',
+      education: 'Education support',
+      other: 'Other',
+    },
+    urgent: 'In an emergency, call the emergency number or use the Emergency page.',
+    emergencyLink: 'Go to Emergency page',
+  },
+  bayan: {
+    'badge': 'Mosque Lectures',
+    'title': 'Bayan & Kitab Reading',
+    'text': 'Upcoming and past bayan sessions at village mosques, and the kitab being read together.',
+    'upcoming': 'Upcoming',
+    'past': 'Past',
+    'all': 'All',
+    'mosque': 'Mosque',
+    'speaker': 'Speaker',
+    'listen': 'Listen / Watch',
+    'empty': 'No bayan sessions to show.',
+    'kitabTitle': 'Kitab being read',
+    'kitabEmpty': 'No kitab reading recorded yet.',
+    'readOn': 'Read on',
+    'from': 'from',
+    'to': 'to',
+    'by': 'by'
+  },
+  myRequests: {
+    'title': 'My requests',
+    'empty': 'You have not sent any request yet.',
+    'status': {
+      'pending': 'Pending',
+      'in_progress': 'In progress',
+      'approved': 'Approved',
+      'rejected': 'Rejected',
+      'completed': 'Completed'
+    },
+    'statusLabel': 'Status',
+    'sentOn': 'Sent on',
+    'loginFirst': 'Login to see your requests'
+  },
+  account: {
+    info: 'Account information',
+    editProfile: 'Edit profile',
+    save: 'Save changes',
+    saving: 'Saving…',
+    profileSaved: 'Your profile has been updated.',
+    changePassword: 'Change password',
+    passwordNote: 'After changing your password, you will be logged out of all other devices.',
+    currentPassword: 'Current password',
+    newPassword: 'New password',
+    confirmPassword: 'Confirm new password',
+    passwordShort: 'The new password must be at least 6 characters.',
+    passwordMismatch: 'The new passwords do not match.',
+    passwordSaved: 'Your password has been changed.',
+  },
+  scale: {
+    'pagination': {
+      'label': 'Pages',
+      'prev': 'Previous',
+      'next': 'Next',
+      'pageOf': 'Page {page} of {pages}'
+    },
+    'picker': {
+      'search': 'Type a name to search…',
+      'noResult': 'No match found',
+      'clear': 'Clear',
+      'typeMore': 'Type at least 2 letters'
+    }
+  },
+  mosqueBayan: {
+    'badge': 'Mosque Bayan',
+    'title': 'Mosque Bayan',
+    'text': 'Bayan sessions held at this mosque.',
+    'back': 'Back to mosques',
+    'empty': 'No bayan sessions here yet.',
+    'link': 'Bayan sessions'
+  }
+}
+
+export default enFeatures
