@@ -1,32 +1,74 @@
 # Digital Village — Frontend
 
-React + Vite + Tailwind CSS ফ্রন্টএন্ড। ব্যাকেন্ড: `Village_Project` (FastAPI)।
+A modern, responsive web application designed to bring essential village services and community information into one digital platform.
 
-## সেটআপ
+Built with React, Vite, and Tailwind CSS, the Digital Village frontend connects with a FastAPI backend to provide a unified experience for community members and administrators.
+
+## Features
+
+* **Community Management** — Access village residents and family information.
+* **Blood Donation** — Explore blood donation services and donor information.
+* **Welfare & Assistance** — Support welfare programs and assistance requests.
+* **Emergency Services** — Access essential emergency-related information.
+* **Education & Institutions** — Explore local educational institutions and community facilities.
+* **Places & Maps** — Discover local places and village resources.
+* **News & Announcements** — Stay informed about community updates.
+* **Admin Dashboard** — Manage community information and platform content.
+* **Bilingual Interface** — Supports Bengali and English.
+* **Pagination & Search** — Browse large datasets efficiently.
+
+## Technology Stack
+
+* React
+* Vite
+* Tailwind CSS
+* JavaScript
+* FastAPI Backend
+* REST API Integration
+
+## Live Demo
+
+**Website:** https://digital-village-frontend-ruby.vercel.app/
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js
+* npm
+* A running Digital Village backend for API-dependent features
+
+### Installation
+
+Clone the repository and navigate to the project directory.
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173
+npm run dev
 ```
 
-ডেভেলপমেন্টে `/api` প্রক্সি হয়ে `http://127.0.0.1:8000` এ যায় (`vite.config.js`)।
-প্রোডাকশনে `.env` এ `VITE_API_URL=https://your-api.example.com` দিন। ব্যাকেন্ডের `CORS_ORIGINS` এও এই ঠিকানা যোগ করতে হবে।
+The development server will typically run at:
 
-## অ্যাডমিন প্যানেল
+`http://localhost:5173`
 
-`/admin` — শুধু অ্যাডমিন ও মডারেটর।
+## Environment Configuration
 
-- ড্যাশবোর্ড, ইউজার (শুধু অ্যাডমিন), গ্রামের মানুষ, পরিবার, রক্তদাতা, যাকাত ও সাহায্য, সাহায্যের আবেদন, শিক্ষা, মসজিদ, প্রতিষ্ঠান, স্থান ও ম্যাপ, সংবাদ, ঘোষণা, জরুরি সেবা।
-- নতুন মডিউল যোগ করতে `src/utils/adminConfig.js` এ একটা এন্ট্রি, `src/locales/*.admin.js` এ লেখা, আর `src/pages/admin/` এ ছোট একটা পেজ লাগে।
+For production deployment, configure the frontend API URL using an environment variable:
 
-## কাঠামো বিষয়ক দ্রষ্টব্য
+```env
+VITE_API_URL=https://your-api.example.com
+```
 
-- `src/places/` ও `src/page/` পুরনো ডুপ্লিকেট ফোল্ডার। কোথাও ব্যবহার হয় না, মুছে ফেলা নিরাপদ।
-- অনুবাদ: `src/locales/{bn,en}.js` + `*.pages.js` + `*.members.js` + `*.admin.js` একসাথে মেশে (`LanguageContext`)।
+Replace the example address with your deployed backend API URL. Configure the backend's CORS settings to allow requests from your frontend domain.
 
-## বড় ডেটা ও পেজিনেশন
+## Project Purpose
 
-- মানুষ, পরিবার, রক্তদাতা ও বয়ানের তালিকা পাতা ধরে আসে (২০-২৪টি প্রতি পাতায়)। খোঁজও সার্ভারে হয়।
-- অ্যাডমিন প্যানেলে সম্পর্কের ঘর (যেমন "পরিবার") টাইপ করে খুঁজে বাছাই করা যায়, পুরো তালিকা আনা হয় না।
-- হুক: `src/hooks/usePagedList.js` (পাতা), `src/hooks/useDebouncedValue.js` (খোঁজের বিলম্ব)।
-- কমপোনেন্ট: `Pagination`, `RelationPicker` (`src/components/common`)।
+Digital Village aims to make essential village services, community resources, and local information more accessible through technology.
+
+## Project Status
+
+The frontend is deployed and integrated with the FastAPI backend.
+
+## Author
+
+**Fas Al Yashin**
