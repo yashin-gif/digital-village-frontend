@@ -10,6 +10,8 @@ const enAdmin = {
     saving: 'Saving…',
     cancel: 'Cancel',
     close: 'Close',
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
     deleting: 'Deleting…',
     yes: 'Yes',
     no: 'No',

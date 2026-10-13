@@ -10,6 +10,8 @@ const bnAdmin = {
     saving: 'সংরক্ষণ হচ্ছে…',
     cancel: 'বাতিল',
     close: 'বন্ধ করুন',
+    openMenu: 'মেনু খুলুন',
+    closeMenu: 'মেনু বন্ধ করুন',
     deleting: 'মোছা হচ্ছে…',
     yes: 'হ্যাঁ',
     no: 'না',

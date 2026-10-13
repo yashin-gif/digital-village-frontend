@@ -168,11 +168,11 @@ const en = {
     text: 'Digital Village is a digital platform for the village of Bogarchar. Its purpose is to make it easy for villagers to find the information they need.',
     mission: {
       title: 'Our Mission',
-      text: 'To bring essential information and services to villagers in one easy place, and to bring the people of the village closer to one another.',
+      text: 'Our mission is to build Bogarchar, a village in Bakshiganj upazila of Jamalpur, into a more organised, aware and cooperative village through technology. We aim to make essential information easily accessible to villagers, to increase education and social awareness, to stand beside those in need, to organise zakat and humanitarian support, and to strengthen communication and cooperation among the villagers. Our mission is to use technology for the welfare of people and to play a positive role in the development of the village.',
     },
     vision: {
       title: 'Our Vision',
-      text: 'An organised, aware and supportive Bogarchar, where no one is left alone in their time of need.',
+      text: 'Our vision is to build a modern, technology-driven and humane Bogarchar, where villagers can easily access essential information, learn about education and development opportunities, and stand by one another in times of need. We dream of a digital village where technology is not merely a means of exchanging information, but creates new opportunities for unity, transparency, humanity and development. Our goal is to grow this initiative into an effective digital community with the participation of the villagers. Our dream is a developed village, an aware society, and the welfare of people through technology.',
     },
     offersBadge: 'What We Do',
     offersTitle: 'What the platform offers',
@@ -202,6 +202,7 @@ const en = {
         text: 'An effort to stand beside those who need help.',
       },
     },
+    
   },
 }
 
