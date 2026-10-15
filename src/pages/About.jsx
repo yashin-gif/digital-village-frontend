@@ -3,6 +3,7 @@ import MissionVision from '../components/about/MissionVision'
 import PlatformOffers from '../components/about/PlatformOffers'
 import JoinCTA from '../components/home/JoinCTA'
 import useLanguage from '../hooks/useLanguage'
+import FounderSection from '../components/about/FounderSection'
 
 export default function About() {
   const { t } = useLanguage()
@@ -13,6 +14,7 @@ export default function About() {
       <PageHeader badge={about.badge} title={about.title} text={about.text} />
       <MissionVision />
       <PlatformOffers />
+      <FounderSection />
       <div className="pt-16 sm:pt-20">
         <JoinCTA />
       </div>

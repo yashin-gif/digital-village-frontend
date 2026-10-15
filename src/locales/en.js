@@ -202,7 +202,27 @@ const en = {
         text: 'An effort to stand beside those who need help.',
       },
     },
-    
+    founder: {
+      badge: 'Initiator',
+      short: [
+        'I am Al Yashin. I am from Bogarchar village in Bakshiganj upazila of Jamalpur district. I am currently studying Computer Science and Engineering (CSE) at City University.',
+      ],
+      more: [
+        'Assalamu Alaikum. I am a son of Bogarchar village. Growing up in the light and air of this village, my dream is to make our beloved village better known to everyone through digital technology, and to build a simple, beautiful and effective digital service platform for the people of the village.',
+        'Digital Village began from that dream. Through this platform, villagers will be able to learn about village information, educational and religious institutions, social activities and essential digital services from their homes. At the same time, the bonds of cooperation, empathy and mutual communication among villagers will grow stronger.',
+        'I believe the true beauty of a village lies not only in its nature, but in the love, kinship, unity and mutual cooperation of its people. I want this heartfelt bond of Bogarchar to shine in the digital world too.',
+        'In the path of this dream, my younger brother and loved ones have inspired me. I am especially grateful to Md. Anwar Hossain, whose encouragement inspired me to move this initiative forward.',
+        'I want to use my learning and experience in technology to do something meaningful for the people of my village.',
+        'For me, Digital Village is not just a website or a technology initiative; it is a love for my roots, a responsibility towards the people of the village, and a small effort to build a beautiful, united and technology-friendly village.',
+        'My dream is for the light of technology to reach every home, for every person in the village to join digital services, and for the love and bond of Bogarchar to spread across every corner of the world.',
+        'I seek the prayers, love and cooperation of everyone.',
+        'Regards,\nAl Yashin\nJr. Full Stack Developer\nComputer Science & Engineering (CSE), City University\nDigital Village — Bogarchar',
+      ],
+      linkedinUrl: 'https://www.linkedin.com/in/al-yashin-5179652a5/',
+      linkedin: 'View LinkedIn Profile',
+      more_btn: 'Read more',
+      less: 'Show less',
+    },
   },
 }
 
