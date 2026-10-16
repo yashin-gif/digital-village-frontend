@@ -1,74 +1,162 @@
-# Digital Village — Frontend
 
-A modern, responsive web application designed to bring essential village services and community information into one digital platform.
 
-Built with React, Vite, and Tailwind CSS, the Digital Village frontend connects with a FastAPI backend to provide a unified experience for community members and administrators.
+<div align="center">
 
-## Features
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07111F,50:123B70,100:00D9FF&height=200&section=header&text=DIGITAL%20VILLAGE&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=Connecting%20Our%20Village%20Digitally&descAlignY=58&descSize=17" width="100%" alt="Digital Village banner" />
 
-* **Community Management** — Access village residents and family information.
-* **Blood Donation** — Explore blood donation services and donor information.
-* **Welfare & Assistance** — Support welfare programs and assistance requests.
-* **Emergency Services** — Access essential emergency-related information.
-* **Education & Institutions** — Explore local educational institutions and community facilities.
-* **Places & Maps** — Discover local places and village resources.
-* **News & Announcements** — Stay informed about community updates.
-* **Admin Dashboard** — Manage community information and platform content.
-* **Bilingual Interface** — Supports Bengali and English.
-* **Pagination & Search** — Browse large datasets efficiently.
+# 🏡 Digital Village
 
-## Technology Stack
+### A Digital Platform for Our Village Community
 
-* React
-* Vite
-* Tailwind CSS
-* JavaScript
-* FastAPI Backend
-* REST API Integration
+Bringing village information, community connections, and useful local services into one digital space.
 
-## Live Demo
+<p>
+  <a href="https://digital-village-frontend-ruby.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit-00BDEB?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/yashin-gif/digital-village-frontend">
+    <img src="https://img.shields.io/badge/Source_Code-GitHub-123B70?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+  </a>
+</p>
 
-**Website:** https://digital-village-frontend-ruby.vercel.app/
+**Designed for Bogarchar, Bakshiganj, Jamalpur, Bangladesh 🇧🇩**
 
-## Getting Started
+</div>
+
+---
+
+## 📖 About the Project
+
+**Digital Village** is a community-focused web platform created with the vision of making village information and useful local services easier to discover.
+
+The goal is to connect people with their community through an organized digital platform that can grow with the needs of village residents.
+
+This project is being developed as a step toward a more connected, informed, and digitally accessible village community.
+
+## 🎯 Vision & Mission
+
+### 🌟 Our Vision
+To build a connected digital village where people can discover local information, stay connected with their community, and access useful services more easily.
+
+### 🚀 Our Mission
+- Organize village information in one accessible platform.
+- Make local institutions and community resources easier to discover.
+- Encourage community participation and mutual support.
+- Explore practical digital services for everyday village life.
+
+## ✨ Key Areas
+
+The platform is intended to bring together useful community information, including:
+
+| Area | Purpose |
+|---|---|
+| 🏘️ Village Information | Help residents discover information about the village |
+| 🏫 Local Institutions | Organize information about local institutions and places |
+| 🗺️ Maps & Locations | Make important local places easier to find |
+| 🩸 Blood Donation | Support donor discovery and community assistance |
+| 🤝 Community Support | Help organize information about local support initiatives |
+| 📰 Community Updates | Provide a space for relevant local news and posts |
+
+> **Note:** The availability of individual features depends on the current implementation. This list includes project goals and feature areas, not a guarantee that every feature is fully operational.
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css,js&theme=dark" alt="React, Vite, Tailwind CSS, HTML, CSS and JavaScript"/>
+
+</div>
+
+The frontend is built with modern web technologies. See the repository's `package.json` for the exact dependencies and versions.
+
+## 🌐 Live Demo
+
+Explore the deployed frontend:
+
+<div align="center">
+
+### [Open Digital Village →](https://digital-village-frontend-ruby.vercel.app/)
+
+</div>
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-* Node.js
-* npm
-* A running Digital Village backend for API-dependent features
+- Node.js and npm
+- Git
 
 ### Installation
 
-Clone the repository and navigate to the project directory.
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/yashin-gif/digital-village-frontend.git
+```
+
+**2. Open the project directory**
+
+```bash
+cd digital-village-frontend
+```
+
+**3. Install dependencies**
 
 ```bash
 npm install
+```
+
+**4. Start the development server**
+
+```bash
 npm run dev
 ```
 
-The development server will typically run at:
+Open the local URL shown in your terminal to view the application.
 
-`http://localhost:5173`
+> If the project requires environment variables, check the repository's configuration files and documentation before running it.
 
-## Environment Configuration
+## 🖼️ Screenshots
 
-For production deployment, configure the frontend API URL using an environment variable:
+Add real screenshots of the running application here.
 
-```env
-VITE_API_URL=https://your-api.example.com
+For example, save screenshots in a repository folder named `screenshots/`, then add them using relative paths:
+
+```markdown
+![Digital Village Home Page](screenshots/home.png)
 ```
 
-Replace the example address with your deployed backend API URL. Configure the backend's CORS settings to allow requests from your frontend domain.
+Replace the example path with the actual screenshot filename.
 
-## Project Purpose
+## 🗺️ Project Roadmap
 
-Digital Village aims to make essential village services, community resources, and local information more accessible through technology.
+- [x] Develop and deploy the frontend
+- [ ] Polish the user interface and accessibility
+- [ ] Document the current features and workflows
+- [ ] Complete and verify planned functionality
+- [ ] Prepare for future backend integration
 
-## Project Status
+## 👨‍💻 Developer
 
-The frontend is deployed and integrated with the FastAPI backend.
+**Al Yashin**  
+Junior Full-Stack Developer · CSE Honours Student
 
-## Author
+- 🌐 Portfolio: https://al-yashin-portfolio.vercel.app
+- 💻 GitHub: https://github.com/yashin-gif
+- 🔗 LinkedIn: https://linkedin.com/in/al-yashin-5179652a5
 
-**Fas Al Yashin**
+## 💙 Our Belief
+
+> A village is more than a place on a map. It is a community built on relationships, shared memories, and helping one another.
+>
+> Digital Village aims to bring that connection into the digital world.
+
+---
+
+<div align="center">
+
+**Built with care for the Bogarchar community 🇧🇩**
+
+<sub>Connecting people. Sharing information. Growing together.</sub>
+
+</div>
